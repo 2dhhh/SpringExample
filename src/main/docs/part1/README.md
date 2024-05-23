@@ -10,7 +10,8 @@
 2. 스프링 프레임워크
 3. 스프링 부트, 스프링 프레임워크 등을 모두 포함한 스프링 생태계를 의미한다
 
-![스크린샷 2024-04-05 오전 9.14.50.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/635cc3d8-c6ad-4648-9ebb-f81c1fa49ea1/18b6803a-8fe0-4a43-bc4e-8d9ce2f9a7c8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-04-05_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.14.50.png)
+![springimage](https://github.com/2dhhh/SpringExample/assets/109519814/91085458-a26c-409f-a9ff-8e60f8dce757)
+
 
 ✅ 스프링의 핵심 개념과 컨셉
 
@@ -28,7 +29,8 @@
 
   (역할 : 인터페이스 구현 : 인터페이스를 구현한 클래스 혹은 구현 객체를 의미)
 
-![스크린샷 2024-04-08 오전 9.43.03.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/635cc3d8-c6ad-4648-9ebb-f81c1fa49ea1/0773a91e-fe13-4357-ac32-cdd76a05b353/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-04-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.43.03.png)
+![image](https://github.com/2dhhh/SpringExample/assets/109519814/ccdab0ff-aeec-447e-ac93-66de332ca0aa)
+
 
 그림과 같이 역할과 구현을 분리하고 오버라이딩을 통한 다형성으로 인터페이스를 구현한 객체를 실행시점에 유연하게 변경이 가능하게하고. 이를 통해 클라이언트를 변경하지 않고도 서버의 구현 기능을 유연하게 변경이 가능하다. 다만, 인터페이스 자체가 변하면, 클라이언트 서버 모두 큰 변경이 발생하게된다.(한계)
 
@@ -61,8 +63,7 @@
 
 - 객체를 생성하고 연관관계를 맺어주는 별도의 조립, 설정자가 필요하다(해결책)
 
-![스크린샷 2024-04-08 오전 10.13.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/635cc3d8-c6ad-4648-9ebb-f81c1fa49ea1/be4810d5-5a40-414c-821b-413d3c042916/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-04-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.13.20.png)
-
+![code](https://github.com/2dhhh/SpringExample/assets/109519814/ffa7e42e-50d3-48a5-a5be-2f01b0a34c08)
 - LSP(Liskov Substitution Principle, 리스코프 치환 원칙)
 
 - 프로그램 객체는 프로그램의 정확성을 깨드리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다
