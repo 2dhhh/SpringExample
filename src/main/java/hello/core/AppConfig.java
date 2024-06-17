@@ -16,17 +16,17 @@ public class AppConfig {
     // @Bean -> Spring 컨테이너에 등록
     @Bean
     public MemberService memberService() {
-        return new MemberServiceImpl(MemberRepository());
+        return new MemberServiceImpl(memberRepository());
     }
 
     @Bean
-    public MemoryMemberRepository MemberRepository() {
+    public MemoryMemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
 
     @Bean
     public OrderService orderService() {
-        return new OrderServiceImpl(MemberRepository(), discountPolicy());
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
     @Bean

@@ -6,7 +6,6 @@ import hello.core.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.Arrays;
 
 public class MemberApp {
 
